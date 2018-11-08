@@ -1,0 +1,79 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1784,
+       "width": 910,
+       "x": 0,
+       "y": 0
+    },
+    "name": "hackerman : zsh — Konsole",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^konsole$",
+       // "instance": "^konsole$",
+       // "title": "^hackerman\\ \\:\\ zsh\\ \\—\\ Konsole$",
+       // "window_role": "^MainWindow\\#1$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1644,
+               "width": 1268,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hackerman : zsh — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^hackerman\\ \\:\\ zsh\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1644,
+               "width": 1268,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hackerman : htop — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^konsole$",
+               // "instance": "^konsole$",
+               // "title": "^hackerman\\ \\:\\ htop\\ \\—\\ Konsole$",
+               // "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+max=$(pkexec /usr/sbin/mate-power-backlight-helper --get-max-brightness)
+cur=$(pkexec /usr/sbin/mate-power-backlight-helper --get-brightness)
+pctstep=max/100
+if [ "$1" == '-u' ]; then
+    new=$((cur+pctstep))
+fi
+
+if [ "$1" == '-i' ]; then
+    new=$((cur-pctstep))
+fi
+
+pkexec /usr/sbin/mate-power-backlight-helper --set-brightness $new

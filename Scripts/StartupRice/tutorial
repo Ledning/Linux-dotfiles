@@ -1,0 +1,39 @@
+i3config
+win+h           = Split horizontal
+win+v           = Split vertical
+win+d           = Start Rofi
+win+f           = Full screen
+win+n           = Start file manager
+win+enter       = Start terminal
+win+arrow       = Change focus 
+win+number      = Go to workspace
+win+shift+x     = Lock
+win+shift+r     = Reload
+win+shift+q     = Close program
+win+shift+space = Floating
+win+shift+num   = Move to workspace
+
+vim
+f               = Find
+i               = Insert before
+a               = Insert after
+I               = Insert at start
+A               = Insert in the end
+r               = Replace letter
+R               = Replace multiple
+v               = Visual mode (Mark)
+V               = Visual block mode (Mark whole words)
+><              = Indentation in visual mode
+y               = Copy in visual mode
+p               = Paste
+u               = Undo
+ctrl+r          = Redo
+gg              = Go to top
+G               = Go to bottom
+caw             = Change a word
+daw             = Delete a word
+ggdG            = Delete all
+:q              = Quit
+:w              = Save
+:wq             = save and exit
+:q!             = Exit without saving
